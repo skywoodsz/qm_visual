@@ -4,6 +4,6 @@
 - Pinocchio
 - Opencv
 - ### 2. 运行：
-- ```
+- `
 rosrun ibvs_control ibvs_eye_to_hand_moving_object_node
-```
+`
