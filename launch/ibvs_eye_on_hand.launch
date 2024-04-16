@@ -3,7 +3,7 @@
 
   <param name="ik_urdf_description" command="$(find xacro)/xacro --inorder '$(find qm_description)/urdf/manipulator/robot.urdf'" />
 
-  <node name="ibvs_eye_on_hand_node" pkg="ibvs_control" type="ibvs_eye_on_hand_node" output="screen">
+  <node name="ibvs_eye_to_hand_moving_object_node" pkg="ibvs_control" type="ibvs_eye_to_hand_moving_object_node" output="screen">
     <param name="urdf_param" value="/ik_urdf_description"/>
   </node>
 
