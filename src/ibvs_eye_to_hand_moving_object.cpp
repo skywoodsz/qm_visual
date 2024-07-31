@@ -24,9 +24,8 @@ DT_(1.0 / 30.0)
     dynamic_srv_->setCallback(cb);
 
     ee_name_ = "j2n6s300_end_effector";
-    // ee_name_ = "j2n6s300_link_6";
     arm_base_name_ = "j2n6s300_link_base";
-    t_E_T_ = Eigen::Vector3d(-0.06, 0.0, -0.2); // -0.1
+    t_E_T_ = Eigen::Vector3d(-0.06, 0.0, -0.2); 
 
     begin_control_flag_ = true;
     begin_control_count = 0;
